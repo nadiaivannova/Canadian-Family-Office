@@ -76,3 +76,30 @@ div.site-summary{
 .section-1{
   margin: 8%;
 }
+
+/* section 2 */
+
+.section-2 .container-fluid{
+  background-image: url("img/financial-consult.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.section-2 .heading-1{
+  margin-top: 20%;
+  margin-bottom: 4%;
+  width: 80%;
+  color: whitesmoke;
+}
+
+.section-2 .para{
+  width: 80%;
+  color:  #283747;
+  margin-bottom: 7%;
+}
+
+.section-2 .btn{
+  margin-bottom: 15%;
+  width: 30%;
+  padding: 2%;
+}
