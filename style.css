@@ -1,0 +1,58 @@
+html {
+  font-family: 'Arimo', sans-serif;
+}
+
+body {
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Arimo';
+}
+
+.nav-link {
+  font: 16px;
+  margin: 15px;
+  color: black !important;
+}
+
+.nav-link:hover{
+  color: #B3B6B7 !important;
+}
+
+.active .nav-link{
+  color: #1C2833;
+}
+
+div.site-summary{
+  background-image:url("img/financial-plan.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.site-title, .site-desc {
+  color: #2E4053;
+}
+.site-title{
+  margin-top: 30%;
+  margin-bottom: 6%;
+  font-size: 50px;
+}
+
+.site-desc{
+  font-size: 14px;
+  padding-left: 15%;
+}
+
+.site-btn1{
+  margin-left: 20%;
+  background-color: black;
+  color: white;
+}
+
+.site-btn2{
+  background-color: white;
+}
+
+.site-btn1, .site-btn2{
+  margin-top: 5%;
+  margin-bottom: 40%;
+}
