@@ -69,6 +69,10 @@ div.site-summary{
   margin-bottom: 5%;
 }
 
+.section-1 .card{
+  width: 20rem;
+  }
+
 .section-1, .card-text, .para1{
   color: #283747;
 }
@@ -102,4 +106,16 @@ div.site-summary{
   margin-bottom: 15%;
   width: 30%;
   padding: 2%;
+}
+
+@media screen and (max-width: 768px){
+  .section-1 .card {
+    width: 14rem;
+    padding: 2px;
+    margin: 10px;
+  }
+  .section-4 .col-md-7 img{
+    width: 350px;
+  }
+
 }
