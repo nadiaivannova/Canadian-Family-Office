@@ -23,13 +23,13 @@ body {
 }
 
 div.site-summary{
-  background-image:url("img/financial-plan.jpg");
+  background-image:url("img/family-savings.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
 
 .site-title, .site-desc {
-  color: #2E4053;
+  color: black;
 }
 .site-title{
   margin-top: 30%;
@@ -55,4 +55,24 @@ div.site-summary{
 .site-btn1, .site-btn2{
   margin-top: 5%;
   margin-bottom: 40%;
+}
+
+/* section one */
+
+.section-1, .heading-1{
+  margin-top:8%;
+}
+
+.section-1, .para1{
+  widows: 60%;
+  margin-left: 20%;
+  margin-bottom: 5%;
+}
+
+.section-1, .card-text, .para1{
+  color: #283747;
+}
+
+.section-1{
+  margin: 8%;
 }
