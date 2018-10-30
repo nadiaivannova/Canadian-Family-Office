@@ -122,17 +122,27 @@ div.site-summary{
 
 .section-3 .second-icon {
   margin-left: 5%;
-
 }
-
 
 .section-3 i{
   color: #2E4053;
-
 }
 
+/*  section 4 */
 
+.section-4 {
+  margin-top: 8%;
+}
 
+.section-4 .row .col-md-7, .col-md-5{
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.section-4 .para-1 {
+  margin-top: 7%;
+  font-size: 23px;
+}
 
 
 
