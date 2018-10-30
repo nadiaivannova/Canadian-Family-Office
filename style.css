@@ -114,6 +114,28 @@ div.site-summary{
   padding: 2%;
 }
 
+/* section 3 */
+
+.section-3{
+  margin-top: 6%;
+}
+
+.section-3 .second-icon {
+  margin-left: 5%;
+
+}
+
+
+.section-3 i{
+  color: #2E4053;
+
+}
+
+
+
+
+
+
 @media screen and (max-width: 768px){
   .section-1 .card {
     width: 14rem;
