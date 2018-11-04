@@ -144,6 +144,42 @@ div.site-summary{
   font-size: 23px;
 }
 
+/*   service page titles*/
+
+.service-titles .jumbotron{
+  background-image:url("img/account-2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0PX;
+  font-size: 50px;
+  color: black;
+}
+
+/* service quote */
+
+.service-quote{
+width: 100%;
+
+}
+.service-quote .card-body{
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+/* service - cards  */
+
+.service-cards{
+  padding: 5%;
+}
+
+.Service-row1 {
+  margin-top: 2%;
+}
+
+.Service-row2 {
+  margin-top: 5%;
+
+}
 
 
 
