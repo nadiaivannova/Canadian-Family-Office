@@ -181,7 +181,17 @@ width: 100%;
 
 }
 
+/* Team  */
 
+.Team-titles .jumbotron{
+  background-image:url("img/teampump.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 5%;
+  font-size: 50px;
+  color: black;
+
+}
 
 
 @media screen and (max-width: 768px){
