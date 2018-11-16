@@ -8,6 +8,13 @@ body {
   font-family: 'Arimo';
 }
 
+.navbar-nav .nav-link {
+    font-size: 10px;
+    margin: 0;
+}
+
+
+
 .nav-link {
   font: 16px;
   margin: 15px;
@@ -21,6 +28,8 @@ body {
 .active .nav-link{
   color: #1C2833;
 }
+
+/* home - site summary */
 
 div.site-summary{
   background-image:url("img/young-family.jpg");
@@ -144,6 +153,14 @@ div.site-summary{
   font-size: 23px;
 }
 
+.section-4 .img-4{
+  display: block;
+  max-width:230px;
+  max-height:95px;
+  width: auto;
+  height: auto;
+}
+
 /*   service page titles*/
 
 .service-titles .jumbotron{
@@ -260,16 +277,12 @@ width: 100%;
   padding: 0px;
 }
 
+/* Extra small devices (portrait phones, less than 576px) */
 
-
-@media screen and (max-width: 768px){
-  .section-1 .card {
-    width: 14rem;
-    padding: 2px;
-    margin: 10px;
-  }
-  .section-4 .col-md-7 img{
-    width: 350px;
+@media (max-width: 575.98px)  {
+  div.site-summary{
+    max-width: auto;
+    background-image: cover;w
   }
 
 }
