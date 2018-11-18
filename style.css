@@ -32,7 +32,8 @@ body {
 /* home - site summary */
 
 div.site-summary{
-  background-image:url("img/young-family.jpg");
+  background:url("img/young-family.jpg")no-repeat;
+  background-position: center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -85,6 +86,7 @@ div.site-summary{
 
 .section-1 .card{
   width: 20rem;
+  margin: .25rem;
   }
 
 .section-1, .card-text, .para1{
@@ -98,7 +100,8 @@ div.site-summary{
 /* section 2 */
 
 .section-2 .container-fluid{
-  background-image: url("img/financial-consult.jpg");
+  background: url("img/financial-consult.jpg")no-repeat;
+  background-position: center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -129,9 +132,6 @@ div.site-summary{
   margin-top: 6%;
 }
 
-.section-3 .second-icon {
-  margin-left: 5%;
-}
 
 .section-3 i{
   color: #2E4053;
