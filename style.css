@@ -153,12 +153,11 @@ div.site-summary{
   font-size: 23px;
 }
 
-.section-4 .img-4{
-  display: block;
-  max-width:230px;
-  max-height:95px;
-  width: auto;
-  height: auto;
+.section-4 .footbal {
+    width: 325px;
+    height: 200px;
+    display: block;
+    padding: .25rem;
 }
 
 /*   service page titles*/
